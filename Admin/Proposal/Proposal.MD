@@ -3,12 +3,12 @@
 <img src="https://raw.githubusercontent.com/OpeningDesign/OpeningDesign.github.io/master/assets/images/icon.png" />
 </p>
 ### Xcel Sports Complex
-Todd Goldbeck • 4860 Highwood Circle • Middleton, Wisconsin 53562 • 608-279-6960
+Todd Goldbeck â€¢ 4860 Highwood Circle â€¢ Middleton, Wisconsin 53562 â€¢ 608-279-6960
 
 ---
 ####Proposal for [OpeningDesign's](http://openingdesign.com/) Architecture & Engineering Services
 
-Firstly, we would like to thank you for the opportunity to submit our proposal for Xcel’s projected sports complex.  We are excited about the project and look forward to the potential of working together.  
+Firstly, we would like to thank you for the opportunity to submit our proposal for Xcelâ€™s projected sports complex.  We are excited about the project and look forward to the potential of working together.  
 
 As we understand it, the project will include an approximate 35,000 SF sporting facility that will house the following major functions.
 
@@ -28,6 +28,11 @@ As our [about page](http://openingdesign.com/about/) outlines in more detail, al
 -->
 
 The following is a high-level breakdown of the scopes of services we plan on providing for your project. 
+
+<br>
+<br>
+<br>
+
 
 ---
 ####Scope of Services
@@ -125,9 +130,9 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 
 ---
 
-As is typical with the initial phases of a building project, the design is often too nebulous to determine a realistic ‘lump-sum’ and/or not-to-exceed maximum fee.  In that light, we propose a two part fee contract whereby the first part will be a an hourly rate proposal for approximately a fifth (1/5th) of the project’s schedule--that is, the early programming and schematic design phases of the project (approx. 4 to 6 weeks).  Toward the beginning of Design Development (DD) phase, when the extent of the scope is better defined, for the second part we propose to continue with our hourly fees, but amend the contract by adding a not-to-exceed maximum fee.  This fee will be a fixed percentage of final construction costs.
+As is typical with the initial phases of a building project, the design is often too nebulous to determine a realistic â€˜lump-sumâ€™ and/or not-to-exceed maximum fee.  In that light, we propose a two part fee contract whereby the first part will be a an hourly rate proposal for approximately a fifth (1/5th) of the projectâ€™s schedule--that is, the early programming and schematic design phases of the project (approx. 4 to 6 weeks).  Toward the beginning of Design Development (DD) phase, when the extent of the scope is better defined, for the second part we propose to continue with our hourly fees, but amend the contract by adding a not-to-exceed maximum fee.  This fee will be a fixed percentage of final construction costs.
 
-Having said that however, to give Xcel ballpark figures, with this type of project under ‘normal/average’ professional services, maximum fees will most likely be around the following ranges.
+Having said that however, to give Xcel ballpark figures, with this type of project under â€˜normal/averageâ€™ professional services, maximum fees will most likely be around the following ranges.
 
 * Architecture - 5% to 7% of final construction costs
 * Engineering (Structural, Mechanical, Electrical, Plumbing) - 3% to 4% of final construction costs.
@@ -138,10 +143,10 @@ Having said that however, to give Xcel ballpark figures, with this type of proje
 ---
 ####Billing Rate Schedule		
 
-|-|Architecture|Mech/Elect/Plumbing|Structural|Fire Protection|Civil|Geotechnical
-|---|---|---|---|---|---|---|
-|Level 1|$85/HR|$180/HR| $160/HR| $47/HR|Pending|Pending|
-|Level 2|$60/HR|$170/HR| $90/HR|    -   |    -   |    -   |
+|-|Architecture|Mech/Elect/Plumbing|Structural|Fire Protection|Civil|
+|---|---|---|---|---|---|
+|Level 1|$85/HR| $180/HR| $160/HR| $47/HR|Pending|Pending|
+|Level 2| $60/HR|$170/HR| $90/HR|    -   |    -   |    -   |
 |Level 3|    -  |$135/HR| $80/HR|    -   |    -   |    -   |
 |Level 4|    -  |$115/HR|    -   |    -   |    -   |    -   |
 |Level 5|    -  | $85/HR|    -   |    -   |    -   |    -   |
@@ -158,7 +163,7 @@ Additionally, the following list of consultants may be required during this proj
 ---
 ####Fee, not-to-exceed.
 
-*< This section will be amended at a later date—approximately at the beginning of the Design Development (DD) phase >*
+*< This section will be amended at a later dateâ€”approximately at the beginning of the Design Development (DD) phase >*
 
 
 ---
@@ -168,9 +173,9 @@ Additionally, the following list of consultants may be required during this proj
 * communication and shipping costs (long distance charges, courier, postage, dedicated web hosting, etc.)
 * reproduction costs for plans, sketches, drawings, graphic representations and other documents
 * Renderings, models, prints of computer-generated drawings, mock-ups specifically	requested	 by the client
-* Certification and documentation costs for third party	certification	such	as	LEED®
+* Certification and documentation costs for third party	certification	such	as	LEEDÂ®
 * Fees, levies, duties or taxes for permits, licences, or approvals from authorities having jurisdiction.
-* Additional insurance coverage or limits, including additional professional liability insurance requested by the client in a excess of that normally carried by the architect and the architect’s consultants.
+* Additional insurance coverage or limits, including additional professional liability insurance requested by the client in a excess of that normally carried by the architect and the architectâ€™s consultants.
 * Direct expenses from additional consultants not specifically outlined in this proposal.
 
 *Reimbursable expenses include an additional 10% to cover in-house administration,	handling	and	financing.*
@@ -233,8 +238,15 @@ OpeningDesign
 
 
 
-
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 
@@ -246,7 +258,7 @@ OpeningDesign
 * Title
 <hr>
 * Date
-<hr>
+	<hr>
 
 <br>
 <br>

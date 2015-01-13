@@ -26,6 +26,7 @@
     * (RS) Use Trombe walls?
   * (RS, TK) Leaning toward locating heating/cooling units on the ground to save structural/flashing/roofing costs. Need to collaborate with MECH for overall approach.
     * (RS) Radiant Heating an option?
+    * (RS) Mechanical to accommodate expansion as well.
 * Architectural
  * (RS) Exposed ceilings w/ acoustical mediation --i.e. no dropped ceilings
  * (RS) stained concrete floors where appropriate.
@@ -40,6 +41,10 @@
   * (TG) Soundproof golf area from rest of program.
 * Budget
 	* Is very very tight, at present. $50/square foot. (RS) conveyed concern with (TG:owner, TK:GC).
+
+
+
+
   
 
 
