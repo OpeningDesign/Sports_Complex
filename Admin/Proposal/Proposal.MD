@@ -3,6 +3,8 @@
 <img src="https://raw.githubusercontent.com/OpeningDesign/OpeningDesign.github.io/master/assets/images/icon.png" />
 </p>
 ### Xcel Sports Complex
+![enter image description here](https://dl-web.dropbox.com/get/github/sports_complex/Models/xcel_logo.jpg?_subject_uid=7117445&w=AADqHbFWgdk2lJX-Sw6yisCu6DUsS1NLLy-6WjxHD9Fh3Q)
+
 Todd Goldbeck • 4860 Highwood Circle • Middleton, Wisconsin 53562 • 608-279-6960
 
 ---
@@ -32,7 +34,9 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 
 ---
 ####Scope of Services
@@ -143,14 +147,14 @@ Having said that however, to give Xcel ballpark figures, with this type of proje
 ---
 ####Billing Rate Schedule		
 
-|-|Architecture|Mech/Elect/Plumbing|Structural|Fire Protection|Civil|
+|-|Architecture|Mech/Elect/Plumbing|Structural|Fire Protection|Civil|Geotechnical
 |---|---|---|---|---|---|
-|Level 1|$85/HR| $180/HR| $160/HR| $47/HR|Pending|Pending|
-|Level 2| $60/HR|$170/HR| $90/HR|    -   |    -   |    -   |
-|Level 3|    -  |$135/HR| $80/HR|    -   |    -   |    -   |
-|Level 4|    -  |$115/HR|    -   |    -   |    -   |    -   |
-|Level 5|    -  | $85/HR|    -   |    -   |    -   |    -   |
-|Level 6|    -  | $70/HR|    -   |    -   |    -   |    -   |
+|Level 1|$85/HR| $170/HR| $150/HR| $37/HR|$120/HR|$125/HR|
+|Level 2| $60/HR|$160/HR| $80/HR|    -   |$105/HR|$115/HR|
+|Level 3|    -  |$125/HR| $70/HR|    -   |$85/HR|$97/HR|
+|Level 4|    -  |$105/HR|    -   |    -   |$75/HR|$89/HR|
+|Level 5|    -  | $75/HR|    -   |    -   |$65/HR|$79/HR|
+|Level 6|    -  | $60/HR|    -   |    -   |$45/HR|$70/HR|
 
 Additionally, the following list of consultants may be required during this project.  Their associated billing rates would be accounted for in the overall not-to-exceed A/E fee.
 
@@ -160,11 +164,14 @@ Additionally, the following list of consultants may be required during this proj
 * Door Hardware Consultant
 * Lighting Consultant
 
+*Consultant expenses will include an additional 10% to cover in-house administration, handling, financing, and insurance costs.*
+
 ---
 ####Fee, not-to-exceed.
 
-*< This section will be amended at a later date—approximately at the beginning of the Design Development (DD) phase >*
+*<<< This section will be amended at a later date—approximately at the beginning of the Design Development (DD) phase >>>*
 
+*Additional note: Due to the potentially unpredictable nature of soil conditions, a not-to-exceed fee for Civil & Geotechnical fees is contingent on a thorough site feasibility investigation*
 
 ---
 ####Reimbursable expenses include:
