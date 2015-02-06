@@ -2,10 +2,13 @@
 <p align="right">
 <img src="https://raw.githubusercontent.com/OpeningDesign/OpeningDesign.github.io/master/assets/images/icon.png" />
 </p>
-### Xcel Sports Complex
-![enter image description here](https://dl-web.dropbox.com/get/github/sports_complex/Models/xcel_logo.jpg?_subject_uid=7117445&w=AADqHbFWgdk2lJX-Sw6yisCu6DUsS1NLLy-6WjxHD9Fh3Q)
+## Xcel Sports Complex
 
-Todd Goldbeck • 4860 Highwood Circle • Middleton, Wisconsin 53562 • 608-279-6960
+---
+
+<img src="https://dl.dropboxusercontent.com/u/7117445/temp/xcel_logo.jpg" width="200px"/>
+
+4860 Highwood Circle • Middleton, Wisconsin 53562 • 608-279-6960
 
 ---
 ####Proposal for [OpeningDesign's](http://openingdesign.com/) Architecture & Engineering Services
@@ -35,8 +38,7 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 ---
 ####Scope of Services
@@ -91,10 +93,11 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 *(approximate duration: 8 weeks;  Approximately 35 % of overall fee)*
     * We, along with our consultants, will draft and compose the following drawings for permit and construction:
         * Site Plans
-	        * Stormwater Managment
-	        * Grading
-	        * Utilities
-	        * Erosion and Sedimentation Controls
+	        * We are assuming the Civil Engineer will do the following drawings:
+		        * Stormwater Management
+		        * Grading
+		        * Utilities
+		        * Erosion and Sedimentation Controls
         * Architectural
 	        * Floor Plans
 	        * Reflected Ceiling Plans
@@ -106,13 +109,6 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 	        * Details - Exterior/Interior
 	        * Door/Window/Finish Schedule
         * Structural Plans
-        * Civil/Utilities site plan
-        * Heating, Ventilating and Air Conditioning Plans
-        * Plumbing Plans
-        * Electrical Plans
-	        * Lighting
-        * Fire Suppression Plans
-        * Fire Alarm
     * Continue to refine cost estimate.
     * Coordinate with the various engineering disciplines and consultants.
 
@@ -134,27 +130,32 @@ The following is a high-level breakdown of the scopes of services we plan on pro
 
 ---
 
-As is typical with the initial phases of a building project, the design is often too nebulous to determine a realistic ‘lump-sum’ and/or not-to-exceed maximum fee.  In that light, we propose a two part fee contract whereby the first part will be a an hourly rate proposal for approximately a fifth (1/5th) of the project’s schedule--that is, the early programming and schematic design phases of the project (approx. 4 to 6 weeks).  Toward the beginning of Design Development (DD) phase, when the extent of the scope is better defined, for the second part we propose to continue with our hourly fees, but amend the contract by adding a not-to-exceed maximum fee.  This fee will be a fixed percentage of final construction costs.
+As is typical with the initial phases of a building project, the design is often too nebulous to determine a realistic ‘lump-sum’ and/or not-to-exceed maximum fee.  In that light, we propose a two part fee contract whereby the first part will be a an hourly rate proposal for approximately a fifth (1/5th) of the project’s schedule--that is, the early programming and schematic design phases of the project (approx. 4 to 6 weeks).  For the second part, when the extent of the scope is better defined, we propose to continue with our hourly fees, but amend the contract by adding a not-to-exceed maximum fee.  This fee will be a fixed percentage of final construction costs.
 
 Having said that however, to give Xcel ballpark figures, with this type of project under ‘normal/average’ professional services, maximum fees will most likely be around the following ranges.
 
 * Architecture - 5% to 7% of final construction costs
-* Engineering (Structural, Mechanical, Electrical, Plumbing) - 3% to 4% of final construction costs.
+* Engineering (Structural) - 1% to 1.5% of final construction costs.
 
 *Percentages cited from [A Guide to Determining Appropriate Fees  for the Services of an Architect Consultants](http://www.mbarchitects.org/docs/guide_architectservicefees%28e%29.pdf).  Estimated percentages do not include reimbursable expenses*
+<br>
+<br>
+<br>
+<br>
+
 
 
 ---
 ####Billing Rate Schedule		
 
-|-|Architecture|Mech/Elect/Plumbing|Structural|Fire Protection|Civil|Geotechnical
+|-|Architecture|Structural|
 |---|---|---|---|---|---|
-|Level 1|$85/HR| $170/HR| $150/HR| $37/HR|$120/HR|$125/HR|
-|Level 2| $60/HR|$160/HR| $80/HR|    -   |$105/HR|$115/HR|
-|Level 3|    -  |$125/HR| $70/HR|    -   |$85/HR|$97/HR|
-|Level 4|    -  |$105/HR|    -   |    -   |$75/HR|$89/HR|
-|Level 5|    -  | $75/HR|    -   |    -   |$65/HR|$79/HR|
-|Level 6|    -  | $60/HR|    -   |    -   |$45/HR|$70/HR|
+|Level 1|$85/HR| $150/HR|
+|Level 2| $60/HR| $80/HR|
+|Level 3|    -  | $70/HR|
+|Level 4|    -  |    -   |
+|Level 5|    -  |    -   |
+|Level 6|    -  |    -   |
 
 Additionally, the following list of consultants may be required during this project.  Their associated billing rates would be accounted for in the overall not-to-exceed A/E fee.
 
@@ -170,8 +171,6 @@ Additionally, the following list of consultants may be required during this proj
 ####Fee, not-to-exceed.
 
 *<<< This section will be amended at a later date—approximately at the beginning of the Design Development (DD) phase >>>*
-
-*Additional note: Due to the potentially unpredictable nature of soil conditions, a not-to-exceed fee for Civil & Geotechnical fees is contingent on a thorough site feasibility investigation*
 
 ---
 ####Reimbursable expenses include:
@@ -194,8 +193,13 @@ Additionally, the following list of consultants may be required during this proj
 ####Services *not* included in Proposal
 *The following list is ordered roughly in how likely it would be to that such services/consultants would be engaged during this project.*
 
+* Civil Engineering
+* HVAC Engineering
+* Electrical Engineering
+* Plumbing Engineering
+* Fire Protection
+* Fire Alarm
 * Site Surveying
-* Geotechnical Engineering
 * Audio/Visual Consultant
 * Security Systems
 * Furniture, Fixtures & Equipment (FF&E) services
@@ -244,7 +248,9 @@ OpeningDesign
 
 
 
-
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
