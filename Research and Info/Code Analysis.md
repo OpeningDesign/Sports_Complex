@@ -10,14 +10,17 @@
 			* Side = 10 min. 30 tot.(e)
 			* Rear = 30ft.
 		* [Lot elements](http://ecode360.com/attachment/JE2120/JE2120-300d%20Figure%203%20Lot%20Elements.pdf)
-	* [Parking](http://ecode360.com/9783197)
-		*  Financial institutions, business, government and professional offices 
-			*   One (1) stall for each three hundred (300) square feet of floor area
-				* 1st Phase = 37,000 SF = 124 stalls
-				* 2nd Phase = 76,000 SF additional = 254 stalls (378 total)
-		* Might be less than 1stall/300sf.
-			* Precedent
-				* Table 28I-3.  Off-Street Parking Requirements  - [City of Madison, WI Zoning](http://legistar.cityofmadison.com/attachments/a7261a03-67a8-413b-a97a-a07f72552155.pdf)
+	* Parking
+		* [Number of parking stalls required.](http://ecode360.com/9783197)
+			*  Financial institutions, business, government and professional offices 
+				*   One (1) stall for each three hundred (300) square feet of floor area
+					* 1st Phase = 37,000 SF = 124 stalls
+					* 2nd Phase = 76,000 SF additional = 254 stalls (378 total)
+			* Might be less than 1stall/300sf.
+				* Precedent
+					* Table 28I-3.  Off-Street Parking Requirements  - [City of Madison, WI Zoning](http://legistar.cityofmadison.com/attachments/a7261a03-67a8-413b-a97a-a07f72552155.pdf)
+		* [Parking requirements.](http://ecode360.com/9783190)
+			* The size of each parking stall shall be not less than 180 square feet.
 * [Chapter 232: STORMWATER MANAGEMENT](http://ecode360.com/14035333)
 * [Chapter 120: BUILDING CONSTRUCTION](http://ecode360.com/9780665)
 
