@@ -1,0 +1,3 @@
+ - Mechanical
+	 - Venting at gable ends?
+	 - 

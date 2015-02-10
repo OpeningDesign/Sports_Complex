@@ -9,6 +9,7 @@
 			* Front = 35ft.
 			* Side = 10 min. 30 tot.(e)
 			* Rear = 30ft.
+		* [Lot elements](http://ecode360.com/attachment/JE2120/JE2120-300d%20Figure%203%20Lot%20Elements.pdf)
 	* [Parking](http://ecode360.com/9783197)
 		*  Financial institutions, business, government and professional offices 
 			*   One (1) stall for each three hundred (300) square feet of floor area
