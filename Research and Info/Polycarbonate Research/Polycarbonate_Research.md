@@ -1,5 +1,4 @@
- * cost comparison with other wall assemblies
- * balancing solar gain and heat loss
+* balancing solar gain and heat loss
  * Other factors
 	 * Thermal insulation
 	 * U-Value
@@ -10,13 +9,11 @@
 	 *  Shading coefficient (SC)
 	 * Solar Heat Gain Coefficient (SHGC)
 	 * Light transmission (LT) %
-	 *  Impact resistance (basketballs, baseballs, etc)
+	 *  Impact resistance
 	 * min/max slope?
  * sizes for efficient layout and use of material
 	 * stock widths
 	 * stock lengths
-
-
  * GallinaUSA
 	 * List of Catalogs: http://gallinausa.com/our-catalogs/
 	 * Full catalog
@@ -25,28 +22,55 @@
 	 * [Overstock and Clearance Items](http://gallinausa.com/overstock-clearance-items/)
 		 * [acroPlus 323](http://gallinausa.com/wp-content/uploads/2012/10/acroplusr323.brochure.pdf)
  * Questions
-	 *  arcoPLUS 323
-		* difference with 324?
-		* overstock? why?
-	* arcoPLUS 324
-		 * thermal break profiles?
-	 * acroPLUS 667
-		 * thermal break profiles?
+	 * Cost premiums comparied with other wall assemblies
+		 * make up in energy savings via...
+			 * heating through solar gain?
+			 * less lighting cost through day-lighting?
+			 * published studies?
+	 * Suggested approach for walls and roof?
+		 * wrap entire building?
+		 * Walls...
+			 * arcoPLUS 323
+					* difference with 324?
+					* overstock? why?
+				* arcoPLUS 324 & AcroPLUS 667
+					 * thermal break profiles
+		 * Roof...
+			 * use IR/AR options to cut down on solar gain.
+				 * cost premium?
+			 * Models
+				 * 2.1 interlocking systems	
+						* acroPLUS 344x?
+							* no IR/AR
+						* 347/547
+							* has IR/AP options
+							* eave/ridge profile and details?
+								* corner profile and details? for all models?
+				 * Modular connector systems?
+					 * flange up/down
+						 * how weatherproof with flange down?
+						 * use connector to extend past to support overhang?
+					 * reverse?
+				 * Modular Overlapping systems?
+			 * Engaging with other roofing materials?
+				 * Standing seam?
+				 * insulated metal panels?
+					 * details?
+	 * fastened at base/top?...
+		 * roof
+		 * wall
+	 * strength?
+			 * used at base of building?
+	 * Drilled through?
+	 * All models accommodate openings?
+		 * 344x?
+	 * IR Options... does it change?... quantities?
+			 * Shading coefficient (SC)
+			 * Solar Heat Gain Coefficient (SHGC)
+			 * Light transmission (LT) %
 	 * products offered in US...made in Janesville?
-	 * for roofing... advantages/disadvantages of
-		 * 2.1 interlocking systems	
-			* acroPLUS 344x?
-				* no IR/AR
-			* 347/547
-				* has IR/AP options
-				* eave/ridge details?
-		 * Modular connector systems?
-			 * reverse?
-		 * Modular Overlapping systems?
-	 * IR Options... does it change?
-		 * Shading coefficient (SC)
-		 * Solar Heat Gain Coefficient (SHGC)
-		 * Light transmission (LT) %
+		 * cost saving for going local?
+
 
 
 

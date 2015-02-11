@@ -1,3 +1,5 @@
+ - Structural
+	 - Expansion joint locations?
  - Mechanical
 	 - Venting at gable ends?
 	 - 
