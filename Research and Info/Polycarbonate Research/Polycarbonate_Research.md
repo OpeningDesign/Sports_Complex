@@ -69,11 +69,32 @@
 			 * Solar Heat Gain Coefficient (SHGC)
 			 * Light transmission (LT) %
 	 * products offered in US...made in Janesville?
+		 * Products.
+			 * 4-25mm sheets
+			 * 20mm, 40mm tongue and groove
+			 * Standing Seam 8mm, 10mm, 12mm, 16mm, 20 mm
 		 * cost saving for going local?
+			 * yes
 
 
 
+* Plastic Supplier...
+	* http://www.midlandplastics.com/
 
+* Fabricators...
+	* http://www.wisconsinsolardesign.com/
+		* [Fred Holtzman](https://www.linkedin.com/pub/fred-holtzman/5/415/15a)
+	* http://www.cpidaylighting.com/
+	* http://www.wascoskylights.com/
+	* http://www.duo-gard.com/
+		* [Tim Metcalfe](https://www.linkedin.com/pub/tim-metcalfe/46/b67/671)
+
+Aluminum Profile Supplier...
+* http://prostockdealer.com/
+
+* Continuing Education
+	* http://www.greence.com/courses/gcp08c/gcp08c.pdf
+	* http://continuingeducation.construction.com/article.php?L=129&C=1284&P=1
 
 
 

@@ -127,6 +127,10 @@
 		* [Zone 6](http://publicecodes.cyberregs.com/icod/iecc/2009/icod_iecc_2009_3_par001.htm)
 		* Other
 			* http://www.energycodes.gov/sites/default/files/becu/envelope07.pdf
+			* http://www.thermaldesign.com/techinfo/category/codes_standards/codes_standards_intro
+			* http://www.insulation.org/articles/article.cfm?id=IO011003
+			* [Guide to Insulating Metal Buildings for
+Compliance to ASHRAE 90.1-2010](http://www.naima.org/publications/MB304.PDF)
 
 
 
