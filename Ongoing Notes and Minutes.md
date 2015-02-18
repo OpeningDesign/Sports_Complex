@@ -1,34 +1,28 @@
 ### Sports Complex - Ongoing Notes and Minutes
 
-
-
-
-
-
-
 ---
-
-
 
 * Site
 
   * Site Layout to accommodate easy expansion
 
-    * (TG) future (2nd phase) expansion to include ~6 basketball/volleyball courts and turf programs--that is, mostly 2-story spaces.
+    * (TG) "The expansion area to the north of Phase 1 is going to be tennis courts (probably 3 will fit).  And also racquetball courts (as many as we can in the space that is left over from the tennis.  So, that leaves 4 new basketball groupings"
 
     * (TG) entry/reception centrally located to overall future master plan.
 
   * (TG) Retention pond needed most likely.
 	  * (TK) conferred with Civil retention pond most likely located to the north of the site.  Site gradually slopes to northwest.
+		  * see [civil plans](https://github.com/OpeningDesign/Sports_Complex/blob/6439713a7f2a3f5c5742423d3ef704299aa8c7cf/Transfer/20150218_Not_Open_Source_site%20plan%20from%20Civil/15-2809%20xcel%20sport%20jeff%2011x17%20PRE%20SITE.pdf) for retention locations.
 
     * (TG) Design retention pond to maintain standing water.  Potentially used for 'Tough Mudder' type of events
 
-    * (TG) For future: Overall site approach to accommodate running around perimeter, along with [obstacle course](https://www.google.com/search?q=obstacle+course&rlz=1C1CHFX_enUS591US591&source=lnms&tbm=isch&sa=X&ei=avemVJj1IcSeyASuyYCYAw&ved=0CAgQ_AUoAQ&biw=1920&bih=912).
+    * ~~(TG) For future: Overall site approach to accommodate running around perimeter, along with [obstacle course](https://www.google.com/search?q=obstacle+course&rlz=1C1CHFX_enUS591US591&source=lnms&tbm=isch&sa=X&ei=avemVJj1IcSeyASuyYCYAw&ved=0CAgQ_AUoAQ&biw=1920&bih=912).~~
+	    * ~~Potentially not appropriate now with 3rd party clinic tenant.~~
 
   * Site to accommodate practice field, if possible.
 
   * ~~(RS) Ask CIVIL/CITY if alternatives to asphalt/curb?~~
-  * (TG) site was reduced to (5) total acres.
+  * (TG) site was reduced to (5.5) total acres.
 
 
 * Structural 
@@ -51,7 +45,8 @@
 
       * combined with large overhangs for shading.
 
-    * (RS) Use Trombe walls?
+    * ~~(RS) Use Trombe walls?~~
+	    * ~~(RS)Cost an issue most likely~~
 
   * (RS, TK) Leaning toward locating heating/cooling units on the ground to save structural/flashing/roofing costs. Need to collaborate with MECH for overall approach.
 
