@@ -73,6 +73,7 @@
 			 * 4-25mm sheets
 			 * 20mm, 40mm tongue and groove
 			 * Standing Seam 8mm, 10mm, 12mm, 16mm, 20 mm
+			 * "Keep in mind, you may want to stick with those items manufactured here in the US (684, 6104, 6124, 6166, 626, 547….and most of the multiwall sheet 4mm -25mm).  I also stock 324/323 panels and some 613 panels."
 		 * cost saving for going local?
 			 * yes
 

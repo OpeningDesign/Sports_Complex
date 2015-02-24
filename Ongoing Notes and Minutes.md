@@ -44,6 +44,7 @@
   * Entry/Reception
 	  * front desk
 	  * apparel display/sale
+	  * office
   * Cafe/Lounge
 	  * seating
   * Locker Rooms

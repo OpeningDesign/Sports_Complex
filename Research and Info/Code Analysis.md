@@ -38,8 +38,10 @@
 	* Applicable Wisconsin Building Codes and overriding codes.
 		* [The International Building Code® – 2009](http://publicecodes.cyberregs.com/icod/ibc/2009/index.htm)
 			* [SPS 362](http://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/361_366/362.pdf)
-		* The International Energy Conservation Code® – 2009
-			*  [SPS 363](http://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/361_366/363.pdf)
+		* Energy:
+			* [The International Energy Conservation Code® – 2009](http://publicecodes.cyberregs.com/icod/iecc/2009/index.htm)
+				*  with overriding Wisconsin code: [SPS 363](http://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/361_366/363.pdf)
+			* ASHRAE 90.1-2007
 		* The International Mechanical Code® – 2009
 			* [SPS 364](https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/361_366/364.pdf)
 		* The International Fuel Gas Code® – 2009
