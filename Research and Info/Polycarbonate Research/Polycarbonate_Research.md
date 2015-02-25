@@ -70,6 +70,13 @@
 			 * Light transmission (LT) %
 	 * products offered in US...made in Janesville?
 		 * Products.
+			 * Wall
+				 * arcoPlus 324
+				 * arcoPlus 547 without IR
+				 * arcoPlus 547 with IR
+			 * Roof
+				 * arcoPlus 6124 with IR
+				 * arcoPlus 626 with IR
 			 * 4-25mm sheets
 			 * 20mm, 40mm tongue and groove
 			 * Standing Seam 8mm, 10mm, 12mm, 16mm, 20 mm
