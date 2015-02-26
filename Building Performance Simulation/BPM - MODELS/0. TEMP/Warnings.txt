@@ -1,0 +1,140 @@
+The following warnings occurred on import.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0045', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0045', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0126', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0264', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0264', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0264', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0338', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0438', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0631', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0801', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0849', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0849', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim0919', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1105', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1174', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1174', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1222', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1222', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1222', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1222', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has two adjacent spaces which are the same space 'aim1322', will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
+Warning: Surface has no adjacent spaces, will not be translated.
+
