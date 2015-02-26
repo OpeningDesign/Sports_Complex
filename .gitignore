@@ -40,3 +40,11 @@ Icon
 .Trashes
 
 *.log
+
+# FreeCAD and Blender backup files
+*.FcStd1
+*.FcStd2
+*.fcstd1
+*.fcstd2
+*.blend1
+*.blend2
