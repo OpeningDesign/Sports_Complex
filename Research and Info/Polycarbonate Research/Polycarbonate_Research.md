@@ -116,7 +116,7 @@ To convert inch-pound Imperial U-Values to metric U-Values, multiply by 5.678.
 To convert Imperial inch-pound R-Ralues to metric R-Values, multiply by 0.1761. One inch = 2.54 cms. One (RSI) U-factor coefficient = 5.678; one R-Value = .1761 RSI.
 
 
-###Costs of Various Wall/Roof Materials....
+###Costs of Various Wall/Roof Materials & Assemblies....
 
 ####Steel Siding...
 ![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_211%20Mar.%2004%2010.01.jpg)
@@ -137,3 +137,13 @@ The following "Simple Saver System®" likely more expensive than what's reflecte
 ![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_218%20Mar.%2004%2010.53.jpg)
 ####Concrete Block...
 ![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_220%20Mar.%2004%2011.40.jpg)
+####Metal Studs with Sheathing and Insulation
+![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_224%20Mar.%2004%2013.26.jpg)
+####Aluminum Storefront...
+![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_222%20Mar.%2004%2013.16.jpg)
+![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_223%20Mar.%2004%2013.19.jpg)
+![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_221%20Mar.%2004%2012.21.jpg)
+
+ - Other Resources...
+	 - http://gobricksoutheast.com/CostComparisons/2014WallCostComparison4Web.pdf
+
