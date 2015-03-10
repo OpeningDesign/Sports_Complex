@@ -1,5 +1,17 @@
-* balancing solar gain and heat loss
- * Other factors
+
+Manufacturers.
+
+ - http://gallinausa.com/
+ - http://www.danpalon.com/
+	 - http://www.danpalon.com/galleries/dynamic/userUploadFiles/File/Danpal_Catalugue_web_301108_cover.pdf
+ - http://www.plazit-polygal.com/
+ - http://www.sheffieldplastics.com/makrolon_family.cfm
+ - http://www.ameriluxinternational.com/
+ - http://www.co-excorp.com/
+ - http://polygal-northamerica.com/
+
+ - balancing solar gain and heat loss
+ - Other factors
 	 * Thermal insulation
 	 * U-Value
 	 * Acoustic insulation
@@ -11,17 +23,17 @@
 	 * Light transmission (LT) %
 	 *  Impact resistance
 	 * min/max slope?
- * sizes for efficient layout and use of material
+ - sizes for efficient layout and use of material
 	 * stock widths
 	 * stock lengths
- * GallinaUSA
+ - GallinaUSA
 	 * List of Catalogs: http://gallinausa.com/our-catalogs/
 	 * Full catalog
 		 * http://gallinausa.com/wp-content/uploads/2012/10/Architectural.catalogue.pdf
 	 * [Architectural Brochure - Summary Sheet](http://gallinausa.com/wp-content/uploads/2012/10/Gallina4pFINAL.pdf)
 	 * [Overstock and Clearance Items](http://gallinausa.com/overstock-clearance-items/)
 		 * [acroPlus 323](http://gallinausa.com/wp-content/uploads/2012/10/acroplusr323.brochure.pdf)
- * Questions
+ - Questions
 	 * Cost premiums comparied with other wall assemblies
 		 * make up in energy savings via...
 			 * heating through solar gain?
@@ -56,18 +68,11 @@
 				 * Standing seam?
 				 * insulated metal panels?
 					 * details?
-	 * fastened at base/top?...
-		 * roof
-		 * wall
 	 * strength?
 			 * used at base of building?
-	 * Drilled through?
 	 * All models accommodate openings?
 		 * 344x?
-	 * IR Options... does it change?... quantities?
-			 * Shading coefficient (SC)
-			 * Solar Heat Gain Coefficient (SHGC)
-			 * Light transmission (LT) %
+
 	 * products offered in US...made in Janesville?
 		 * Products.
 			 * Wall
@@ -86,10 +91,13 @@
 
 
 
-* Plastic Supplier...
+ - Plastic Supplier...
 	* http://www.midlandplastics.com/
+	* http://www.piedmontplastics.com/
+	* http://www.ameriluxinternational.com/
+	* 
 
-* Fabricators...
+ - Fabricators...
 	* http://www.wisconsinsolardesign.com/
 		* [Fred Holtzman](https://www.linkedin.com/pub/fred-holtzman/5/415/15a)
 	* http://www.cpidaylighting.com/
@@ -146,4 +154,14 @@ The following "Simple Saver System®" likely more expensive than what's reflecte
 
  - Other Resources...
 	 - http://gobricksoutheast.com/CostComparisons/2014WallCostComparison4Web.pdf
-
+ 
+ - Roofing
+	 - http://www.metalsales.us.com/
+	 - http://www.berridge.com/products/
+	 - http://metlspan.com/
+	 - http://www.mbci.com/
+	 - http://www.morincorp.com/
+	 - https://www.pac-clad.com/
+		 - https://www.pac-clad.com/exposed-fastener-panels/
+		 - https://www.pac-clad.com/metal-roofing/
+		 - 
