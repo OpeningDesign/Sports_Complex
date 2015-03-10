@@ -3,9 +3,6 @@ Project
 
 A Sports Complex in [Southern Wisconsin](https://www.google.com/maps/place/43%C2%B000'28.7%22N+88%C2%B049'33.6%22W/@43.007976,-88.825994,398m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0).
 
-![](https://raw.githubusercontent.com/OpeningDesign/Sports_Complex/cfd427f32179244c337aa16f31f0556a4ca2b07d/Models/Proposal%203/render/01.jpg)
-
-![](https://raw.githubusercontent.com/OpeningDesign/Sports_Complex/cfd427f32179244c337aa16f31f0556a4ca2b07d/Models/Proposal%202/render/01.jpg)
 
 ============
 ####In-the-Open
