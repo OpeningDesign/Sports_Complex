@@ -126,6 +126,31 @@ To convert Imperial inch-pound R-Ralues to metric R-Values, multiply by 0.1761. 
 
 ###Costs of Various Wall/Roof Materials & Assemblies....
 
+
+
+####Polycarbonate...
+
+ - arcoPlus 547 (wall)
+	 - $6.70/SF (base)
+		 - +$0.85/SF for IR option ("The control of the temperature and the management of heat..."
+		 - +$0.59/SF for AR option ("The AR treatment will facilitate a better distribution of light while reducing reflections and glare.")
+	 - Clip  $0.23/SF
+		 - $1.50/clip.
+		 - 1 clip/6.6 SF
+	 - Aluminum Profile @ head/sill/jamb
+		 - < not sure - ask Jefferson Glass?>
+ - acroPlus 626 Reverso (roof)
+	 - $5.40/SF (base)
+		 - +$0.85/SF for IR option
+		 - +$0.59/SF for AR option
+ 	 - Clip  $0.23/SF
+		 - $1.50/clip.
+		 - 1 clip/6.6 SF
+	 - Cover gasket $0.87/SF
+		 - $1.56/LF
+	 - Start/End Profiles - $1.33/LF
+	 - Covergasket Stopper - $1.25 unit
+
 ####Steel Siding...
 ![enter image description here](https://dl.dropboxusercontent.com/u/7117445/temp/ScreenHunter_211%20Mar.%2004%2010.01.jpg)
 ####Steel Roofing Panels...
