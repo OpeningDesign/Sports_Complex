@@ -1,6 +1,7 @@
 
 ####Codes for City of Jefferson, WI
 
+* [Checklist](http://www.jeffersonwis.com/Engineering/Site%20Plan%20Review_Full%20Document.pdf) for site plan approval
 * [Chapter 300: ZONING Common Council of the City of Jefferson](http://ecode360.com/9782843)
 	* Will have to be rezoned to B-Business
 		* [Zoning Map](http://www.jeffersonwis.com/Maps/Jefferson%20Zoning%205-9-13.pdf)
@@ -108,18 +109,18 @@
 
 
  * [SECTION 2902 MINIMUM PLUMBING FACILITIES](http://publicecodes.cyberregs.com/icod/ibc/2009/icod_ibc_2009_29_sec002.htm)  
-	 * Total Occupant Load = 820 
-		 * Male = 420
+	 * Total Occupant Load = 891
+		 * Male = 445
 			 * WC's = 1 per 125
-				 * 420/125 = 4
+				 * 445/125 = 4
 				 * 1. Where more than one water closet is required for males, urinals may be substituted for up to 50 percent of the required number of water closets.
 			 * Lavatories = 1 per 200
-				 * 420/200 = 3
-		 * Female = 420
+				 * 445/200 = 3
+		 * Female = 445
 			 * WC's = 1 per 65
-				 * 420/65 = 7
+				 * 445/65 = 7
 			 * Lavatories = 1 per 200
-				 * 420/200 = 3
+				 * 445/200 = 3
 		 * Drinking Fountains
 			 * 1 per 500
 				 * 820/500 = 2
