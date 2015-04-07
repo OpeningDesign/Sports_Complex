@@ -1,6 +1,9 @@
 *.*.rvt
 *.ifc.log
 *.mp4
+*.ifc.sharedparameters.txt
+*.ifc.log.html
+
 
 
 # Windows image file caches
