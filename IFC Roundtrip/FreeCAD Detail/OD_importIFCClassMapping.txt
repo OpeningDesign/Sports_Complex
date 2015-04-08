@@ -72,7 +72,7 @@ IfcFlowController		Generic Models
 IfcFlowControllerType		Generic Models	
 IfcFlowMovingDevice		Mechanical Equipment	
 IfcFlowStorageDevice		Specialty Equipment	
-IfcFlowTerminal		Generic Models	
+IfcFlowTerminal		Plumbing Fixtures	
 IfcFooting		Structural Foundations	
 IfcFootingType		Structural Foundations	
 IfcFurnishingElement		Furniture	
