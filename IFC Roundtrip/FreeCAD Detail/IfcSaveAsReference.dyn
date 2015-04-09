@@ -1,0 +1,43 @@
+<Workspace Version="0.8.0.856" X="76.9178046031317" Y="424.071961676566" zoom="1.33823125" Name="Home" RunType="Manual" RunPeriod="100" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <DSCore.File.Filename guid="910121aa-1e3c-438a-a1cb-4acc937b7df0" type="DSCore.File.Filename" nickname="File Path" x="-17.7496823535781" y="-135.781716856908" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>F:\detail_Yorik.ifc</System.String>
+    </DSCore.File.Filename>
+    <Dynamo.Nodes.Watch guid="0bded0fa-522f-4726-a9de-66cc2d5929a3" type="Dynamo.Nodes.Watch" nickname="Watch" x="314.652924632323" y="-134.129012961377" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <DSIronPythonNode.PythonNode guid="31d6f61d-81ea-4cb5-965e-30d599f7e187" type="DSIronPythonNode.PythonNode" nickname="Python Script" x="141.538650660615" y="-135.808151002726" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="1">
+      <Script>import clr
+# Import DocumentManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+clr.AddReference("RevitAPI")
+from  Autodesk.Revit.DB.IFC import *
+
+dataEnteringNode = IN
+path = IN[0]
+opt1 = IFCImportOptions()
+opt1.Action = IFCImportAction.Open
+opt1.Intent = IFCImportIntent.Reference
+newdoc = app.OpenIFCDocument(path,opt1)
+newpath = path[:-3] + "rvt"
+try:
+	newdoc.SaveAs(newpath)
+	newdoc.Close(False)
+	OUT = "File succesfully saved at %s." %newpath
+except:
+	OUT = "An error ocurred. A file with the same name might already exist in the specified folder."</Script>
+    </DSIronPythonNode.PythonNode>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="910121aa-1e3c-438a-a1cb-4acc937b7df0" start_index="0" end="31d6f61d-81ea-4cb5-965e-30d599f7e187" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="31d6f61d-81ea-4cb5-965e-30d599f7e187" start_index="0" end="0bded0fa-522f-4726-a9de-66cc2d5929a3" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
