@@ -1,6 +1,8 @@
 *.*.rvt
 *.ifc.log
 *.mp4
+*.bak
+*.ifc.log.html
 
 
 
