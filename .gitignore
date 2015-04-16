@@ -52,3 +52,7 @@ Icon
 *.fcstd2
 *.blend1
 *.blend2
+
+#Excel temporary files
+~$*.xlsx
+
