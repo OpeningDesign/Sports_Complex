@@ -56,3 +56,5 @@ Icon
 #Excel temporary files
 ~$*.xlsx
 
+#AutoCAD temporary files
+*.dwl*
