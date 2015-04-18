@@ -13,7 +13,7 @@
   )
 )
  
-(defun C:CopyBlk1 (/ *error* OldBlockName NewBlockName
+(defun C:rnb (/ *error* OldBlockName NewBlockName
  
 rewind BlockName Info BlockInfo ent_name ent_info)
  
@@ -130,14 +130,16 @@ rewind BlockName Info BlockInfo ent_name ent_info)
  
 (entmake '((0 . "ENDBLK")))
  
-(command "-INSERT" NewBlockName pause (cdr (assoc 41 le)) (cdr (assoc 42 le)) (round (* 180 (/ (cdr (assoc 50 le)) 3.14 )) 1 ) )
- 
+(command "-INSERT" NewBlockName (cdr (assoc 10 le)) (cdr (assoc 41 le)) (cdr (assoc 42 le)) (round (* 180 (/ (cdr (assoc 50 le)) 3.14 )) 1 ) )
+(entdel oldent)
 )
+
+
  
 )
  
 (*Error* nil)
- 
+
 (princ)
 
 ) ;end
