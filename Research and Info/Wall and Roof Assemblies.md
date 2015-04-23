@@ -1,0 +1,32 @@
+- Wall
+	- Polycarbonate
+		- [arcoPlus547](http://gallinausa.com/arcoplus/arcoplus-547/)
+			- [Glazing treatments](http://gallinausa.com/glazing-treatments/) (@AnisGitHub to determine)
+			- Colors either (TBD)...
+				- Opal
+				- Crystal
+			- Exterior wall next to showers to have highly opacity. 
+	- Storefront
+		- [14000 Series](http://www.tubeliteinc.com/14000-io-series-multiplane-storefront-framing/) with inboard glazing.
+	- Resin Fiber Panel
+		- [Stonewood](http://stonewoodpanels.com/) exterior resin panel (open joint, rainscreen appoach)
+		- 1 5/8" gallvanized furring/studs
+		- Rigid insulation (@AnisGitHub to determine)
+		- 1/2" or 3/4" exterior sheating. (tbd)
+		- 6" metal studs. (could go up to 8" if there's a sizable energy advantage)
+			- Batt Insulation (@AnisGitHub to determine)
+		- Interior finish either
+			- 5/8" gyp. board
+			- 3/4" plywood
+	- Metal Panel Wall
+		- A [MBCI](http://www.mbci.com/) product (TBD)
+		- Horizontal girts 4ft o.c. (+/-)
+		- Batt Insulation
+			- [Simple Saver System](http://www.thermaldesign.com/products/category/simple_saver/a_simple_choice)   (@AnisGitHub to determine)
+			- Rigid Insulation (thermal break) at girts to satisfy 'continuous insulation' code requirement.  (@AnisGitHub to determine)
+		- 3/4" plywood
+- Roof
+	- 8" Purlins (could go up to 10" if there's a sizable energy advantage)
+	- 	Batt Insulation
+		- [Simple Saver System - SSS] (http://www.thermaldesign.com/products/category/simple_saver/a_simple_choice)   (@AnisGitHub to determine)
+		- Rigid Insulation  (thermal break) at purlin to satisfy 'continuous insulation' code requirement.  Probably integral to SSS product (@AnisGitHub to determine)
