@@ -1,0 +1,187 @@
+<Workspace Version="0.7.6.4256" X="725.928552745594" Y="78.700679894974" zoom="0.780717324957525" Name="Home" RunType="Manually" RunPeriod="100">
+  <NamespaceResolutionMap />
+  <Elements>
+    <DSRevitNodesUI.Categories guid="372642b5-471e-495d-8a50-2986d2db2145" type="DSRevitNodesUI.Categories" nickname="Categories" x="-353.019653434477" y="335.624152746343" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="371:GenericModel" />
+    <DSRevitNodesUI.ElementsOfCategory guid="35e581e5-cbe3-43f8-acd1-5ba384f04264" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="46.1275807920963" y="335.965758482999" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="6d51e52c-a160-4dd5-bc47-ed9476bc71cf" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-619.576211167159" y="443.579834309261" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="param_name = {&quot;IfcMaterial&quot;,&quot;Reference(PropertySet)&quot;};&#xA;isinstance = true;&#xA;param_group = &quot;PG_IFC&quot;;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="1f47b2e1-9cba-417f-9432-369c1f507ebf" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="329.951325478216" y="326.438912323805" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="link1 = IfcLink[0];&#xA;linkel = link1.GetParameterValueByName(&quot;IfcGUID&quot;);&#xA;localel = local1.GetParameterValueByName(&quot;IfcGUID&quot;);&#xA;newind = IndexOf(localel,linkel&lt;1&gt;);&#xA;ordered = Reorder(link1,newind);&#xA;readval = ordered&lt;1&gt;.GetParameterValueByName(params&lt;2&gt;);&#xA;AllTrue(newparams);&#xA;apply1(local1,params,readval);&#xA;IfcEl = IfcLink[1];" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="d1c0968d-85e6-4f7d-8e47-bde4c16c76f5" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="332.117102653163" y="160.148402520354" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="def apply1(el,par:var[],val:var[])&#xA;{&#xA;el.SetParameterByName(par[0],val[0]);&#xA;el.SetParameterByName(par[1],val[1]);&#xA;return = el;&#xA;};" ShouldFocus="false" />
+    <DSIronPythonNode.PythonNode guid="72ab43c8-d1e2-4350-80eb-c2db2674aa13" type="DSIronPythonNode.PythonNode" nickname="Python Script" x="68.2219080330798" y="215.781775367139" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2">
+      <Script>import clr
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+clr.AddReference("System")
+from System.Diagnostics import Process
+
+clr.AddReference("RevitAPI")
+from  Autodesk.Revit.DB import RevitLinkType, RevitLinkOptions, RevitLinkInstance, FilteredElementCollector, FilePath, ModelPathUtils, FilteredElementCollector, ElementCategoryFilter
+from  Autodesk.Revit.DB.IFC import *
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+import sys
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
+import os
+
+path = IN[0]
+Cat1 = UnwrapElement(IN[1])
+newpath = path[:-3] + "RVT"
+file_exists = os.path.exists(newpath)
+link_exists = False
+ltype = []
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+if not file_exists:
+	opt1 = IFCImportOptions()
+	opt1.Action = IFCImportAction.Open
+	opt1.Intent = IFCImportIntent.Reference
+	newdoc = app.OpenIFCDocument(path,opt1)
+	newdoc.SaveAs(newpath)
+	newdoc.Close(False)
+try:
+	opt2 = RevitLinkOptions(False)
+	linktype1 = RevitLinkType.CreateFromIFC(doc, path, newpath, True, opt2)
+	ltype.append(linktype1)
+except:
+	link_exists = True
+if not link_exists:
+	inst1 = RevitLinkInstance.Create(doc, ltype[0].ElementId)
+if link_exists:
+	collector = FilteredElementCollector(doc)
+	collector.OfClass(RevitLinkInstance)
+	collector1 = collector.GetElementIterator()
+	collector1.Reset()
+	for c in collector1:
+		linktype2 = doc.GetElement(c.GetTypeId())
+		linkpath0 = linktype2.GetExternalFileReference().GetPath()
+		linkpath1 = ModelPathUtils.ConvertModelPathToUserVisiblePath(linkpath0)
+		if linkpath1 == newpath:
+			inst1 = c
+			break
+TransactionManager.Instance.TransactionTaskDone()
+
+LinkDoc = inst1.GetLinkDocument()
+collector = FilteredElementCollector(LinkDoc)
+filter = ElementCategoryFilter(Cat1.Id)
+list1 = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements()
+list2 = []
+for l in list1:
+	list2.append(l.ToDSType(True))
+linktype3 = doc.GetElement(inst1.GetTypeId())
+OUT = list2, linktype3</Script>
+    </DSIronPythonNode.PythonNode>
+    <DSCore.File.Filename guid="7da3c4c4-acd6-464f-95f4-b3aa74769679" type="DSCore.File.Filename" nickname="File Path" x="-595.45811331646" y="212.675207848225" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>E:\DIMITAR\GitHub\Sports_Complex\IFC Roundtrip\FreeCAD Detail\detail_Yorik_notris.ifc</System.String>
+    </DSCore.File.Filename>
+    <Dynamo.Nodes.Watch guid="cfc913bc-7b25-4784-91f7-88a1981e864c" type="Dynamo.Nodes.Watch" nickname="Watch" x="942.567812726992" y="408.446678363684" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <DSIronPythonNode.PythonNode guid="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" type="DSIronPythonNode.PythonNode" nickname="Python Script" x="148.789990465274" y="426.068425280528" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="6">
+      <Script>import clr
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+import System
+from System.Collections.Generic import *
+
+clr.AddReference("RevitAPI")
+from  Autodesk.Revit.DB import BuiltInParameterGroup, BuiltInCategory
+
+import sys
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
+import os
+
+path = IN[0]
+param_name = IN[1]
+isinstance = IN[2]
+param_group = IN[3]
+param_cat = UnwrapElement(IN[4])
+waitforfilecreation = IN[5]
+newpath = path + ".sharedparameters.txt"
+file_exists = os.path.exists(newpath)
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+if not file_exists:
+	OUT = "No Shared Parameters file found!"
+else:
+	if file_exists:
+		app.SharedParametersFilename = newpath
+	file = app.OpenSharedParameterFile()
+	params = []
+	groups = file.Groups
+	for g in groups:
+		params.append(g.Definitions)
+	definitions = []
+	for pn in param_name:
+		for p in params:
+			if not p.IsEmpty and p.Contains(p.Item[pn]):
+				definitions.append(p.Item[pn])
+				
+all_param_groups = System.Enum.GetValues(BuiltInParameterGroup)
+for g in all_param_groups:
+	if str(g) == param_group:
+		param_group1 = g
+		break
+
+builtInCat = System.Enum.ToObject(BuiltInCategory, param_cat.Id.IntegerValue)
+cats = app.Create.NewCategorySet()
+cats.Insert(doc.Settings.Categories.get_Item(builtInCat))
+if isinstance:
+	bind = app.Create.NewInstanceBinding(cats)
+else:
+	bind = app.Create.NewTypeBinding(cats)
+output = []	
+parametermap = doc.ParameterBindings
+for d in definitions:
+	if not parametermap.Contains(d):
+		output.append(parametermap.Insert(d, bind, param_group1))
+
+TransactionManager.Instance.TransactionTaskDone()
+OUT = output</Script>
+    </DSIronPythonNode.PythonNode>
+    <Dynamo.Nodes.Function guid="0674b5d3-9520-4efe-a362-4e7f7b8ae854" type="Dynamo.Nodes.Function" nickname="Tool.Eraser" x="694.479337275548" y="549.724994051743" isVisible="true" isUpstreamVisible="true" lacing="Shortest">
+      <ID value="73f2fb6b-75ab-46ae-a9a6-731e4899e8b7" />
+      <Name value="Tool.Eraser" />
+      <Description value="Try to delete any element from project" />
+      <Inputs>
+        <Input value="Element(s)" />
+      </Inputs>
+      <Outputs>
+        <Output value="Can't delete (Ids)" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="372642b5-471e-495d-8a50-2986d2db2145" start_index="0" end="35e581e5-cbe3-43f8-acd1-5ba384f04264" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="372642b5-471e-495d-8a50-2986d2db2145" start_index="0" end="72ab43c8-d1e2-4350-80eb-c2db2674aa13" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="372642b5-471e-495d-8a50-2986d2db2145" start_index="0" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="35e581e5-cbe3-43f8-acd1-5ba384f04264" start_index="0" end="1f47b2e1-9cba-417f-9432-369c1f507ebf" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6d51e52c-a160-4dd5-bc47-ed9476bc71cf" start_index="0" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6d51e52c-a160-4dd5-bc47-ed9476bc71cf" start_index="0" end="1f47b2e1-9cba-417f-9432-369c1f507ebf" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6d51e52c-a160-4dd5-bc47-ed9476bc71cf" start_index="1" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6d51e52c-a160-4dd5-bc47-ed9476bc71cf" start_index="2" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1f47b2e1-9cba-417f-9432-369c1f507ebf" start_index="5" end="cfc913bc-7b25-4784-91f7-88a1981e864c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1f47b2e1-9cba-417f-9432-369c1f507ebf" start_index="8" end="0674b5d3-9520-4efe-a362-4e7f7b8ae854" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="72ab43c8-d1e2-4350-80eb-c2db2674aa13" start_index="0" end="1f47b2e1-9cba-417f-9432-369c1f507ebf" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="72ab43c8-d1e2-4350-80eb-c2db2674aa13" start_index="0" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7da3c4c4-acd6-464f-95f4-b3aa74769679" start_index="0" end="72ab43c8-d1e2-4350-80eb-c2db2674aa13" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7da3c4c4-acd6-464f-95f4-b3aa74769679" start_index="0" end="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c1aafc7c-16b5-4f3d-9ef7-f9bac9cee2eb" start_index="0" end="1f47b2e1-9cba-417f-9432-369c1f507ebf" end_index="3" portType="0" />
+  </Connectors>
+  <Notes />
+</Workspace>
