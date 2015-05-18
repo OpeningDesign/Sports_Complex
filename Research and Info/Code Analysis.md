@@ -128,12 +128,26 @@
 * International Energy Conservation Code
 	* [SECTION 502 BUILDING ENVELOPE REQUIREMENTS](http://publicecodes.cyberregs.com/icod/iecc/2009/icod_iecc_2009_5_sec002.htm)
 		* [Zone 6](http://publicecodes.cyberregs.com/icod/iecc/2009/icod_iecc_2009_3_par001.htm)
+		* Requirements
+			* Wall
+				* U-0.069 or 
+				* R-13 + R-5.6ci = 18.6R
+			* Roof
+				* U-0.049 or 
+				* R-13 + R-19 = 32R
+					* a) Standing seam roof with two fiberglass insulation layers. 
+						* The first R-value is for faced fiberglass insulation batts draped over purlins. 
+						* The second R-value is for unfaced fiberglass insulation batts installed parallel to the purlins. 
+							* A minimum R-3.5 thermal spacer block is placed above the purlin/batt, and the roof deck is secured to the purlins.
+							* When using R-value compliance method, a thermal spacer block is required, otherwise use the U-factor compliance method. [see Tables 502.1.2 and 502.2(2)]
 		* Other
 			* http://www.energycodes.gov/sites/default/files/becu/envelope07.pdf
 			* http://www.thermaldesign.com/techinfo/category/codes_standards/codes_standards_intro
 			* http://www.insulation.org/articles/article.cfm?id=IO011003
-			* [Guide to Insulating Metal Buildings for
-Compliance to ASHRAE 90.1-2010](http://www.naima.org/publications/MB304.PDF)
+			* [Guide to Insulating Metal Buildings for Compliance to ASHRAE 90.1-2010](http://www.naima.org/publications/MB304.PDF)
+			* Simple Saver
+				* http://www.thermaldesign.com/downloads/pdfs/codealerts/TD_SSS_CodeAlert_WI.pdf
+				* http://www.thermaldesign.com/states/wisconsin
 
 
 

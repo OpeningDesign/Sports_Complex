@@ -30,3 +30,6 @@
 	- 	Batt Insulation
 		- [Simple Saver System - SSS] (http://www.thermaldesign.com/products/category/simple_saver/a_simple_choice)   (@AnisGitHub to determine)
 		- Rigid Insulation  (thermal break) at purlin to satisfy 'continuous insulation' code requirement.  Probably integral to SSS product (@AnisGitHub to determine)
+
+http://www.thermaldesign.com/downloads/pdfs/codealerts/TD_SSS_CodeAlert_WI.pdf
+
