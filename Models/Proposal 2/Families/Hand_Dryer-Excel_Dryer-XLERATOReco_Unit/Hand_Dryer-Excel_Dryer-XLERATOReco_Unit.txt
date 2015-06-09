@@ -1,0 +1,21 @@
+,Voltage##ELECTRICAL_POTENTIAL##VOLTS,Product Weight##OTHER##,Amperage##ELECTRICAL_CURRENT##AMPERES,Frequency##ELECTRICAL_FREQUENCY##HERTZ,Model##OTHER##,Cover Material##OTHER##,Cover Finish##OTHER##
+XL-BW-ECO-ECO-120V,120,15lbs,12.5,60,XL-BW-ECO,Thermoset Resin,Bulk Molding Compound -  Excel Dryer - Thermoset Resin - White
+XL-BW-ECO-ECO-208V,208,15lbs,7,60,XL-BW-ECO,Thermoset Resin,Bulk Molding Compound -  Excel Dryer - Thermoset Resin - White
+XL-BW-ECO-ECO-240V,240,15lbs,6.5,60,XL-BW-ECO,Thermoset Resin,Bulk Molding Compound -  Excel Dryer - Thermoset Resin - White
+XL-BW-ECO-ECO-230V,230,15lbs,6.5,50,XL-BW-ECO,Thermoset Resin,Bulk Molding Compound -  Excel Dryer - Thermoset Resin - White
+XL-SB-ECO-120V,120,16lbs,12.5,60,XL-SB-ECO,Stainless Steel,Metal - Excel Dryer - Stainless Steel - Brushed
+XL-SB-ECO-208V,208,16lbs,7,60,XL-SB-ECO,Stainless Steel,Metal - Excel Dryer - Stainless Steel - Brushed
+XL-SB-ECO-240V,240,16lbs,6.5,60,XL-SB-ECO,Stainless Steel,Metal - Excel Dryer - Stainless Steel - Brushed
+XL-SB-ECO-230V,230,16lbs,6.5,50,XL-SB-ECO,Stainless Steel,Metal - Excel Dryer - Stainless Steel - Brushed
+XL-C-ECO-120V,120,17lbs,12.5,60,XL-C-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Chrome - Polished
+XL-C-ECO-208V,208,17lbs,7,60,XL-C-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Chrome - Polished
+XL-C-ECO-240V,240,17lbs,6.5,60,XL-C-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Chrome - Polished
+XL-C-ECO-230V,230,17lbs,6.5,50,XL-C-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Chrome - Polished
+XL-W-ECO-120V,120,17lbs,12.5,60,XL-W-ECO,Die-Cast Zinc Alloy,Metal -  Excel Dryer - Zinc Alloy - White
+XL-W-ECO-208V,208,17lbs,7,60,XL-W-ECO,Die-Cast Zinc Alloy,Metal -  Excel Dryer - Zinc Alloy - White
+XL-W-ECO-240V,240,17lbs,6.5,60,XL-W-ECO,Die-Cast Zinc Alloy,Metal -  Excel Dryer - Zinc Alloy - White
+XL-W-ECO-230V,230,17lbs,6.5,50,XL-W-ECO,Die-Cast Zinc Alloy,Metal -  Excel Dryer - Zinc Alloy - White
+XL-GR-ECO-120V,120,17lbs,12.5,60,XL-GR-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Zink Alloy -  Textured Graphite
+XL-GR-ECO-208V,208,17lbs,7,60,XL-GR-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Zink Alloy -  Textured Graphite
+XL-GR-ECO-240V,240,17lbs,6.5,60,XL-GR-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Zink Alloy -  Textured Graphite
+XL-GR-ECO-230V,230,17lbs,6.5,50,XL-GR-ECO,Die-Cast Zinc Alloy,Metal - Excel Dryer - Zink Alloy -  Textured Graphite
