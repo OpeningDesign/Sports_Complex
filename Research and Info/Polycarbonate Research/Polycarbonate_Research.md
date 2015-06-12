@@ -190,3 +190,25 @@ The following "Simple Saver System®" likely more expensive than what's reflecte
 		 - https://www.pac-clad.com/exposed-fastener-panels/
 		 - https://www.pac-clad.com/metal-roofing/
 		 - 
+
+
+
+ - PC-1
+	 - arcoPlus®547
+		 - Color: Opal
+		 - Thermal insulation:  1.1 W/m2K 
+		 - U-Value (R=1/U): 0.188
+		- Color Light transmission (LT) %:  44
+		- Solar Heat Gain Coefficient (SHGC): 45
+		- Shading coefficient (SC): .52
+ - PC-2
+	 - arcoPlus®547
+		 - Color: Clear
+		 - Thermal insulation:  1.1 W/m2K 
+		 - U-Value (R=1/U): 0.188
+		- Color Light transmission (LT) %:  67
+		- Solar Heat Gain Coefficient (SHGC): 68
+		- Shading coefficient (SC):  .78
+		- 
+
+
