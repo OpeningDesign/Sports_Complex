@@ -99,11 +99,6 @@
 
   
 
-
-
-
-
-
-
-
-
+ - sizes of purlins/girts
+ - collar around parapet stub columns
+ - 
