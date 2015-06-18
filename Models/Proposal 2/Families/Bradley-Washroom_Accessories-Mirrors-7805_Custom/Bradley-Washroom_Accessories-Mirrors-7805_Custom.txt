@@ -1,0 +1,7 @@
+;Model##other##;Type Comments##other##;Description##other##;Reflective Material##other##
+"XX"" x XX"" + BradEX ";7805-0XXXX0;"BradEX 1/4"" Float Glass Mirror";Angle-Frame Mirror, With Shelf, XX by XX inches;Glass - Bradley Corp - BradEX - Polished Float Mirror
+"XX"" x XX"" + 1/4"" Tempered";7805-0XXXX2;"1/4"" Tempered Glass Mirror";Angle-Frame Mirror, With Shelf, XX by XX inches;Glass - Bradley Corp - Tempered Mirror
+"XX"" x XX"" + Laminate";7805-0XXXX3;Laminate Glass Mirror;Angle-Frame Mirror, With Shelf, XX by XX inches;Glass - Bradley Corp - Laminate Mirror
+"XX"" x XX"" + Arch-Steel";7805-0XXXX4;Highly Polished No. 8 Architectural Finish Stainless Steel Mirror;Angle-Frame Mirror, With Shelf, XX by XX inches;Steel - Bradley Corp - No.8 Architectural Finish Mirror
+"XX"" x XX"" + Annealed Steel";7805-0XXXX5;Bright Annealed Stainless Steel Mirror;Angle-Frame Mirror, With Shelf, XX by XX inches;Steel - Bradley Corp - Bright Annealed Finish Mirror
+"XX"" x XX"" + Plexiglass";7805-0XXXX6;Plexiglass Mirror;Angle-Frame Mirror, With Shelf, XX by XX inches;Glass - Bradley Corp - Plexiglass Mirror
