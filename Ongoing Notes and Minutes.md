@@ -101,4 +101,5 @@
 
  - sizes of purlins/girts
  - collar around parapet stub columns
+ - 1" thermal break at girts and purlins
  - 
