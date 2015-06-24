@@ -1,12 +1,12 @@
 
 <p align="right">
-<img src="https://raw.githubusercontent.com/OpeningDesign/OpeningDesign.github.io/master/assets/images/icon.png" />
+<img src="https://raw.githubusercontent.com/OpeningDesign/OpeningDesign.github.io/master/assets/images/icon.png" width="100px" />
 </p>
 ## Xcel Sports Complex
 
 ---
 
-<img src="https://dl.dropboxusercontent.com/u/7117445/temp/xcel_logo.jpg" width="200px"/>
+<img src="https://dl.dropboxusercontent.com/u/7117445/temp/xcel_logo.jpg" width="180px"/>
 
 4860 Highwood Circle • Middleton, Wisconsin 53562 • 608-279-6960
 
@@ -34,8 +34,6 @@ As our [about page](http://openingdesign.com/about/) outlines in more detail, al
 
 The following is a high-level breakdown of the scopes of services we plan on providing for your project. 
 
-<br>
-<br>
 <br>
 <br>
 
@@ -170,7 +168,10 @@ Additionally, the following list of consultants may be required during this proj
 ---
 ####Fee, not-to-exceed.
 
-*<<< This section will be amended at a later date—approximately at the beginning of the Design Development (DD) phase >>>*
+< amended on 6/23/2015 >
+
+* Architecture and Engineering Fees will not exceed - 6% of final construction costs
+*- does not include reimbursable expenses*
 
 ---
 ####Reimbursable expenses include:
