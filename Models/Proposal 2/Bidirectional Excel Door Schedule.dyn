@@ -1,0 +1,28 @@
+<Workspace Version="0.8.1.1942" X="-222.227172380309" Y="166.897130987072" zoom="0.910063803931439" Name="Home" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <DSRevitNodesUI.Categories guid="6eef1573-78f7-4b1e-bb5e-ab0424d4d666" type="DSRevitNodesUI.Categories" nickname="Categories" x="57.5" y="138" isVisible="true" isUpstreamVisible="true" lacing="Disabled" index="207:Doors" />
+    <DSRevitNodesUI.ElementsOfCategory guid="1ad88aad-6f51-4807-b50e-101b087c739a" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="304.5" y="108" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.DSFunction guid="9d8fc5ae-5167-4217-adfe-ed6efc4e03b9" type="Dynamo.Nodes.DSFunction" nickname="Element.GetParameterValueByName" x="576.998868791928" y="121.776346905778" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string" />
+    <Dynamo.Nodes.StringInput guid="dd2580f6-beb5-4857-a6c8-1fb083916c93" type="Dynamo.Nodes.StringInput" nickname="String" x="365.601610073738" y="230.859075717742" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>Hardware</System.String>
+      <System.String value="Hardware" />
+    </Dynamo.Nodes.StringInput>
+    <Dynamo.Nodes.Watch guid="c83a048d-6ec4-432a-baff-50756dd73c24" type="Dynamo.Nodes.Watch" nickname="Watch" x="962.263072329749" y="120.976670145732" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.DSFunction guid="179dd35b-3972-4409-b9bc-27b38487aced" type="Dynamo.Nodes.DSFunction" nickname="Element.GetParameterValueByName" x="572.847539004966" y="302.400233767539" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string" />
+    <Dynamo.Nodes.StringInput guid="a14e857f-a4aa-4020-8391-35c25269650e" type="Dynamo.Nodes.StringInput" nickname="String" x="368.576848139548" y="310.202585656099" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>Hardware</System.String>
+      <System.String value="Hardware" />
+    </Dynamo.Nodes.StringInput>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="6eef1573-78f7-4b1e-bb5e-ab0424d4d666" start_index="0" end="1ad88aad-6f51-4807-b50e-101b087c739a" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1ad88aad-6f51-4807-b50e-101b087c739a" start_index="0" end="9d8fc5ae-5167-4217-adfe-ed6efc4e03b9" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1ad88aad-6f51-4807-b50e-101b087c739a" start_index="0" end="179dd35b-3972-4409-b9bc-27b38487aced" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9d8fc5ae-5167-4217-adfe-ed6efc4e03b9" start_index="0" end="c83a048d-6ec4-432a-baff-50756dd73c24" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dd2580f6-beb5-4857-a6c8-1fb083916c93" start_index="0" end="9d8fc5ae-5167-4217-adfe-ed6efc4e03b9" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dd2580f6-beb5-4857-a6c8-1fb083916c93" start_index="0" end="179dd35b-3972-4409-b9bc-27b38487aced" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+</Workspace>
