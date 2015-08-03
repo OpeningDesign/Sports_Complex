@@ -1,0 +1,277 @@
+<Workspace Version="0.8.2.2095" X="544.246022529629" Y="-82.7809524614382" zoom="1.49158300824348" Name="Home" RunType="Manual" RunPeriod="100" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="FamilySymbol" resolvedName="Revit.Elements.FamilySymbol" assemblyName="RevitNodes.dll" />
+    <ClassMap partialName="Point" resolvedName="Autodesk.DesignScript.Geometry.Point" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Math" resolvedName="DSCore.Math" assemblyName="DSCoreNodes.dll" />
+    <ClassMap partialName="List" resolvedName="DSCore.List" assemblyName="DSCoreNodes.dll" />
+    <ClassMap partialName="Vector" resolvedName="Autodesk.DesignScript.Geometry.Vector" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="PolyCurve.ByJoinedCurves" resolvedName="Autodesk.DesignScript.Geometry.PolyCurve" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Transaction.st" resolvedName="Revit.Transaction.Transaction" assemblyName="RevitNodes.dll" />
+    <ClassMap partialName="Rectangle" resolvedName="Autodesk.DesignScript.Geometry.Rectangle" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Line" resolvedName="Autodesk.DesignScript.Geometry.Line" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="DSCore.Object" resolvedName="DSCore.Object" assemblyName="DSCoreNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Dynamo.Nodes.CodeBlockNodeModel guid="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="284.276201730678" y="21.9088547751426" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" CodeText="IfcEl = multi1[0];&#xA;LocalEl = multi1[8];&#xA;IFCelId = IfcEl.GetParameterValueByName(&quot;IfcGUID&quot;);&#xA;LocalElId = LocalEl.GetParameterValueByName(&quot;IfcGUID&quot;);&#xA;newind = IndexOf(LocalElId,IFCelId&lt;1&gt;);&#xA;ordered = Reorder(IfcEl,newind);&#xA;readval = ordered&lt;1&gt;.GetParameterValueByName(&quot;IfcMaterial&quot;);&#xA;readval2 = replace1(readval,&quot;No description&quot;);&#xA;setval = LocalEl.SetParameterByName(&quot;Comments&quot;, readval2);&#xA;IfcLinkType = multi1[1];&#xA;plane1 = multi1[2];&#xA;visible1 = multi1[3];&#xA;cbox = multi1[4];&#xA;IfcTag = multi1[5];&#xA;margin1 = multi1[6];&#xA;viewR = multi1[7];&#xA;loc1 = elementpt1(visible1,plane1);&#xA;ap1 = PtAverage(loc1);&#xA;loc2 =tagpts1(loc1,ap1,cbox,viewR,margin1,plane1);" ShouldFocus="false" />
+    <DSCore.File.Filename guid="87d12017-c042-4363-932d-c1b069d196fd" type="DSCore.File.Filename" nickname="File Path" x="-315.802598713445" y="-33.6070306463428" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.String>E:\DIMITAR\GitHub\Sports_Complex\IFC Roundtrip\FreeCAD Detail\detail_Yorik_notris.ifc</System.String>
+    </DSCore.File.Filename>
+    <DSRevitNodesUI.Categories guid="1f9472a5-45f2-4ee5-bc6b-f239c5586089" type="DSRevitNodesUI.Categories" nickname="Categories" x="-148.000043170967" y="60.984088957843" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" index="371:GenericModel" />
+    <DSCoreNodesUI.BoolSelector guid="33577a35-463f-44c1-898b-a197f9c33cc1" type="DSCoreNodesUI.BoolSelector" nickname="Create tags?" x="-115.000043170967" y="360.361667190717" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Boolean>True</System.Boolean>
+    </DSCoreNodesUI.BoolSelector>
+    <DSIronPythonNode.PythonNode guid="feda33fd-9361-46cc-b361-086345ca9d1d" type="DSIronPythonNode.PythonNode" nickname="discard IFC link" x="927.402387460311" y="174.830232717172" isVisible="false" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="1">
+      <Script>import clr
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+doc = DocumentManager.Instance.CurrentDBDocument
+
+
+link1 = UnwrapElement(IN[0])
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+try:
+	doc.Delete(link1.Id)
+	OUT = "Ok"
+except:
+	OUT = "Failed"
+TransactionManager.Instance.TransactionTaskDone()</Script>
+    </DSIronPythonNode.PythonNode>
+    <DSCoreNodesUI.Input.DoubleSlider guid="97ddea52-f3b9-4091-b7f4-ef9aa6cfc501" type="DSCoreNodesUI.Input.DoubleSlider" nickname="View depth cut-off distance [m]" x="-288.000043170967" y="148.328483516062" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>0.45</System.Double>
+      <Range min="0.001" max="1" step="0.01" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <DSRevitNodesUI.FamilyTypes guid="2a718760-5db6-49c2-8aa0-1986e5be4735" type="DSRevitNodesUI.FamilyTypes" nickname="IFC Tag Type" x="-181.000043170967" y="210.67287807428" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" index="0:Area Tag:Area Tag" />
+    <DSCoreNodesUI.BoolSelector guid="a1b2bdb2-2b58-47d6-9893-bbec75dc83cf" type="DSCoreNodesUI.BoolSelector" nickname="Refresh view" x="-115.000043170967" y="298.017272632499" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Boolean>False</System.Boolean>
+    </DSCoreNodesUI.BoolSelector>
+    <Dynamo.Nodes.CodeBlockNodeModel guid="71c24b4a-0cae-4987-bab9-56e7cb53a2e9" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="helper functions" x="336.276201730678" y="-514.013438343576" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" CodeText="def PtAverage(pts:var[])&#xA;{&#xA;return = Point.ByCoordinates(Math.Average(pts.X),&#xA;Math.Average(pts.Y),Math.Average(pts.Z));&#xA;};&#xA;&#xA;def replace1(val,rep)&#xA;{&#xA;return = (val == &quot;&quot; ? rep : val);&#xA;};&#xA;&#xA;def elementpt1(elt1,pl1)&#xA;{&#xA;bb1 = elt1.BoundingBox;&#xA;pt1 = PtAverage({bb1.MinPoint,bb1.MaxPoint});&#xA;return = pl1.ClosestPointTo(pt1);&#xA;};&#xA;&#xA;def tagpts1(pt1,ap1,box,v1,margin,pl1)&#xA;{&#xA;test1  = ((pt1.X - ap1.X) + (pt1.Y - ap1.Y)) &gt; 0;&#xA;test2 = v1.X &lt; 0 || v1.Y &lt; 0 ? !test1 : test1;&#xA;l1 = test2 ? Line.ByStartPointDirectionLength(pt1,v1,margin+1):&#xA;Line.ByStartPointDirectionLength(pt1,v1.Reverse(),margin+1);&#xA;pt2 = box.Intersect(l1)[0];&#xA;return = DSCore.Object.IsNull(pt2) ? ap1 : pt2;&#xA;};" ShouldFocus="false" />
+    <Dynamo.Nodes.Watch guid="71a2d8bf-7973-49a1-b518-f490cd3df100" type="Dynamo.Nodes.Watch" nickname="Watch" x="283.606502484227" y="420.203547179783" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" />
+    <DSIronPythonNode.PythonNode guid="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" type="DSIronPythonNode.PythonNode" nickname="multi-box 1" x="137.270083665303" y="21.9088547751426" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="5">
+      <Script>import clr
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+clr.AddReference("System")
+from System.Diagnostics import Process
+
+clr.AddReference("RevitAPI")
+from  Autodesk.Revit.DB import RevitLinkType, RevitLinkOptions, RevitLinkInstance, FilteredElementCollector, FilePath, ModelPathUtils, FilteredElementCollector, ElementCategoryFilter, DisplayUnitType, UnitUtils, SubTransaction
+from  Autodesk.Revit.DB.IFC import *
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+clr.ImportExtensions(Revit.GeometryConversion)
+
+import sys
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
+import os
+
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+path = IN[0]
+Cat1 = UnwrapElement(IN[1])
+cutoff1 = IN[2]
+IfcTag = IN[3]
+#get active view's data
+view = doc.ActiveView
+view_or = view.Origin.ToPoint()
+view_nr = view.ViewDirection.ToVector()
+view_pl = Plane.ByOriginNormal(view_or,view_nr)
+#link the IFC
+newpath = path[:-3] + "RVT"
+file_exists = os.path.exists(newpath)
+link_exists = False
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+if not file_exists:
+	opt1 = IFCImportOptions()
+	opt1.Action = IFCImportAction.Open
+	opt1.Intent = IFCImportIntent.Reference
+	newdoc = app.OpenIFCDocument(path,opt1)
+	newdoc.SaveAs(newpath)
+	newdoc.Close(False)
+try:
+	opt2 = RevitLinkOptions(False)
+	linktype1 = RevitLinkType.CreateFromIFC(doc, path, newpath, True, opt2)
+except:
+	link_exists = True
+if not link_exists:
+	inst1 = RevitLinkInstance.Create(doc, linktype1.ElementId)
+if link_exists:
+	fec1 = FilteredElementCollector(doc).OfClass(RevitLinkInstance).GetElementIterator()
+	fec1.Reset()
+	for c in fec1:
+		linktype2 = doc.GetElement(c.GetTypeId())
+		linkpath0 = linktype2.GetExternalFileReference().GetPath()
+		linkpath1 = ModelPathUtils.ConvertModelPathToUserVisiblePath(linkpath0)
+		if linkpath1 == newpath:
+			inst1 = c
+			break
+#temporarily modify the view's clip depth
+subt1 = SubTransaction(doc)
+fco = view.LookupParameter("Far Clip Offset")
+cutoff2 = UnitUtils.ConvertToInternalUnits(cutoff1, DisplayUnitType.DUT_METERS)
+subt1.Start()
+parset1 = fco.Set(cutoff2)
+doc.Regenerate()
+#extract only the visible elements
+fec3 = FilteredElementCollector(doc, view.Id).OfCategoryId(Cat1.Id).ToElements()
+VisibleEl = [e.ToDSType(True) for e in fec3]
+subt1.RollBack()
+TransactionManager.Instance.TransactionTaskDone()
+
+#get all elementsfrom the linked IFC
+LinkDoc = inst1.GetLinkDocument()
+fec2 = FilteredElementCollector(LinkDoc).OfCategoryId(Cat1.Id).WhereElementIsNotElementType().ToElements()
+IfcEl = [e.ToDSType(True) for e in fec2]
+linktype3 = doc.GetElement(inst1.GetTypeId())
+#get view scale, size and direction
+vscale = view.Scale
+viewR = view.RightDirection.ToVector()
+#get the tag dimensions and scale
+tagscale = IfcTag.GetParameterValueByName("L") * vscale/2
+#get the crop region and shrink appropriately to the tagscale
+cbox = view.CropBox
+boxmin =cbox.Min.ToPoint()
+boxmax = cbox.Max.ToPoint()
+dynbox0 = Cuboid.ByCorners(boxmin, boxmax)
+tf1 = cbox.Transform
+cs1 = CoordinateSystem.ByOriginVectors(tf1.Origin.ToPoint(),tf1.BasisX.ToVector(),tf1.BasisY.ToVector(), tf1.BasisZ.ToVector())
+dynbox = dynbox0.Transform(cs1)
+dyncrop1 = dynbox.Intersect(view_pl)[0].PerimeterCurves()
+viewdims = dynbox.Width
+dynpts = [c.StartPoint for c in dyncrop1]
+v1 = Vector.ByTwoPoints(dynpts[0], dynpts[3]).Normalized().Scale(tagscale)
+v2 = Vector.ByTwoPoints(dynpts[1], dynpts[2]).Normalized().Scale(tagscale)
+dynpts[0] = dynpts[0].Add(v1)
+dynpts[3] = dynpts[3].Add(v1.Reverse())
+dynpts[1] = dynpts[1].Add(v2)
+dynpts[2] = dynpts[2].Add(v2.Reverse())
+dyncrop2 = Rectangle.ByCornerPoints(dynpts)
+#get all elements from the local file
+fec4 = FilteredElementCollector(doc).OfCategoryId(Cat1.Id).WhereElementIsNotElementType().ToElements()
+LocalEl = [e.ToDSType(True) for e in fec4]
+
+OUT = IfcEl, linktype3, view_pl, VisibleEl, dyncrop2, IfcTag, viewdims, viewR, LocalEl</Script>
+    </DSIronPythonNode.PythonNode>
+    <DSIronPythonNode.PythonNode guid="502ab4d8-1850-4297-8b90-741771e56c5c" type="DSIronPythonNode.PythonNode" nickname="multi-box 2" x="927.402387460311" y="258.286618554605" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="4">
+      <Script>import clr
+import math
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+clr.ImportExtensions(Revit.GeometryConversion)
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+families = UnwrapElement(IN[0])
+TagType0 = IN[1]
+pts = UnwrapElement(IN[2])
+boolean = IN[3]
+view = doc.ActiveView
+vscale = view.Scale
+margin = TagType0.GetParameterValueByName("W") * 1.1 * vscale #+10% buffer
+TagType = UnwrapElement(TagType0)
+#distribute overlapping points
+def distribute1(pts):
+	clusters = []
+	for i in xrange(len(pts)):
+		distances = [pts[i].DistanceTo(pts[j]) for j in xrange(len(pts))]
+		cluster = []
+		for k in xrange(len(distances)):
+			if distances[k] &lt; margin:
+				cluster.append(k)
+		if len(cluster) &gt; 1 and cluster not in clusters:
+			clusters.append(cluster)
+	ptcluster = [[pts[cc] for cc in c] for c in clusters]
+	for ptsfk in ptcluster:
+		len1 = len(ptsfk)
+		avg_z = sum(p.Z for p in ptsfk) / len1
+		start_z = avg_z  - math.floor(len1/2) * margin
+		for i in xrange(len1):
+			ptsfk[i] = Point.ByCoordinates(ptsfk[i].X,ptsfk[i].Y,start_z)
+			start_z += margin
+	for i in xrange(len(clusters)):
+		for j in xrange(len(clusters[i])):
+			pts[clusters[i][j]] = ptcluster[i][j]
+	return pts
+pts = distribute1(pts)
+#create the tags
+if boolean:
+	TransactionManager.Instance.EnsureInTransaction(doc)
+	tags = []
+	rvtPoints = [p.ToXyz() for p in pts]
+	tm1 = TagMode.TM_ADDBY_CATEGORY
+	to1 = TagOrientation.Horizontal
+	for i, j in zip(families, rvtPoints):
+		tag = doc.Create.NewTag(view, i, True , tm1, to1, j)
+		tag.ChangeTypeId(TagType.Id)
+		tag.TagHeadPosition = j
+		#par1 = tag.LookupParameter("Leader Line")
+		#setpar1 = par1.Set(1)
+		tags.append(tag)#.ToDSType(False)) #uncomment to not create duplicates
+	OUT = tags
+	#uncross the newly created tags
+	#def tagline(tag1):
+	#	s1 = tag1.TagHeadPosition.ToPoint()
+	#	e1 = tag1.LeaderEnd.ToPoint()
+	#	return Line.ByStartPointEndPoint(s1,e1)
+	TransactionManager.Instance.TransactionTaskDone()
+else:
+	OUT = "Tag Creation is disabled.\nPlease set to True"</Script>
+    </DSIronPythonNode.PythonNode>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" start_index="9" end="feda33fd-9361-46cc-b361-086345ca9d1d" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" start_index="11" end="502ab4d8-1850-4297-8b90-741771e56c5c" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" start_index="13" end="502ab4d8-1850-4297-8b90-741771e56c5c" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" start_index="18" end="502ab4d8-1850-4297-8b90-741771e56c5c" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="87d12017-c042-4363-932d-c1b069d196fd" start_index="0" end="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1f9472a5-45f2-4ee5-bc6b-f239c5586089" start_index="0" end="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="33577a35-463f-44c1-898b-a197f9c33cc1" start_index="0" end="502ab4d8-1850-4297-8b90-741771e56c5c" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="97ddea52-f3b9-4091-b7f4-ef9aa6cfc501" start_index="0" end="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="2a718760-5db6-49c2-8aa0-1986e5be4735" start_index="0" end="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a1b2bdb2-2b58-47d6-9893-bbec75dc83cf" start_index="0" end="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0e5f9405-7bcb-4e5e-aa74-34301ea3dc80" start_index="0" end="c07a80ce-bc2b-494b-a7ac-38aa0ab10bb8" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="502ab4d8-1850-4297-8b90-741771e56c5c" start_index="0" end="71a2d8bf-7973-49a1-b518-f490cd3df100" end_index="0" portType="0" />
+  </Connectors>
+  <Notes>
+    <Dynamo.Models.NoteModel guid="fccf0885-2818-4cae-a7a0-63e972f5585d" text="TO DO:&#xD;&#xA;+ tag placement:&#xD;&#xA;	- tag leaders mustn't cross. Can't seem to be able to get the leader end with the API.&#xD;&#xA;+ better handling of null references&#xD;&#xA;+ combine the CBN inside a single PSN ?" x="581.773610703061" y="425.338608028914" />
+    <Dynamo.Models.NoteModel guid="421024e2-03a9-4b45-9537-a7cba7d9ae92" text="Please parametrize the width&#xD;&#xA;(W) and length (L) of your tag." x="-370.357782138877" y="230.429084434142" />
+    <Dynamo.Models.NoteModel guid="cd195be2-c2b6-4e92-a1d6-0a45fa97fa17" text="Dynamo can't tell if you've change the scale, crop box or the active view inside Revit, after initially running the graph.  Please toggle this bool once to notify Dynamo of any changes." x="-414.741358851348" y="299.644400404213" />
+    <Dynamo.Models.NoteModel guid="e138cbf8-a7e0-4920-bcf4-08f01227f28c" text="This is the depth at which elements will be tagged. Try to keep it to a realistic view depth." x="-589.061814431765" y="147.527028457831" />
+    <Dynamo.Models.NoteModel guid="e225f6a4-98bb-4253-a94a-3aca725a4e1f" text="Add the path to the IFC file you just opened. (there is no way to read the file path if the file is not saved first)" x="-618.904303504708" y="-19.2796438200376" />
+    <Dynamo.Models.NoteModel guid="50e84785-eeb0-4e69-84a3-00ad37309d94" text="In our particular case all IFC elements are&#xD;&#xA;imported as Generic Models" x="-397.22939537964" y="82.8276735966792" />
+  </Notes>
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="background_preview" eyeX="590.636779785156" eyeY="8.32620906829834" eyeZ="574.958129882813" lookX="53.3185997009277" lookY="-42.3972702026367" lookZ="33.4466934204102" />
+  </Cameras>
+</Workspace>
