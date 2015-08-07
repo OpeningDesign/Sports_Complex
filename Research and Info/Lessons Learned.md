@@ -1,0 +1,3 @@
+- Have all the sub's engineering developed at the same level of development throughout the project.
+- Verify how accurate the PEMB manufacturers reactions are at certain stages of development.
+-  
