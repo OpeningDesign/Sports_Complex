@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <Job>
+    <OutputFileName>XSC - Drawings.pdf</OutputFileName>
+    <StampsOnAllPages />
+    <OutputDir>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set</OutputDir>
+    <JobOptions>
+      <Name>Standard Document.joboptions</Name>
+      <Width>-1</Width>
+      <Height>-1</Height>
+      <Orient>Auto</Orient>
+      <ImageCompression>Flate</ImageCompression>
+      <ImageResolution>300</ImageResolution>
+      <JpegQuality>75</JpegQuality>
+      <ImageAliasingText>2</ImageAliasingText>
+      <ImageAliasingGraphics>2</ImageAliasingGraphics>
+      <LineMergeOn>False</LineMergeOn>
+      <BlendMode>Darken</BlendMode>
+      <BlendAlpha>1</BlendAlpha>
+      <PDFPostProcess>False</PDFPostProcess>
+      <PostProcessProcessMasks>False</PostProcessProcessMasks>
+      <PostProcessFixStripedImageTransparency>False</PostProcessFixStripedImageTransparency>
+      <PostProcessCombineAdjacentImages>False</PostProcessCombineAdjacentImages>
+      <PostProcessOptimizeSolidImages>False</PostProcessOptimizeSolidImages>
+      <PostProcessRemoveTextClipping>False</PostProcessRemoveTextClipping>
+      <PostProcessPDFVersion>Version_1_4</PostProcessPDFVersion>
+    </JobOptions>
+    <ColorDepth>4</ColorDepth>
+    <OpenOutputFileAfter>True</OpenOutputFileAfter>
+    <DeleteTempPS>False</DeleteTempPS>
+    <Name />
+    <Overwrite>0</Overwrite>
+    <Delete>False</Delete>
+    <InterpreterType />
+    <LastError />
+    <Unfiltered>False</Unfiltered>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\G-100 - Cover.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\G-100 - Cover.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName>Revu</ExeName>
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-100 - GENERAL NOTES.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-100 - GENERAL NOTES.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-101 - SCHEDULES, BASE PLATE AND PIER DETAILS.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-101 - SCHEDULES, BASE PLATE AND PIER DETAILS.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-200 - FOUNDATION PLAN.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-200 - FOUNDATION PLAN.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-201 - FOUNDATION PLAN CONT-.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-201 - FOUNDATION PLAN CONT-.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-300 - FOUNDATION DETAILS.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\Sheet - S-300 - FOUNDATION DETAILS.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-100-A - Site Plan.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-100-A - Site Plan.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-100-B - Site Lighting Details.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-100-B - Site Lighting Details.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101 - First Floor Plan.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101 - First Floor Plan.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101-A - Enlarged First Floor Plan (West).pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101-A - Enlarged First Floor Plan (West).pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101-B - Enlarged First Floor Plan (East).pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-101-B - Enlarged First Floor Plan (East).pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-102 - Roof Plans.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-102 - Roof Plans.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-111 - Reflected Ceiling Plan.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-111 - Reflected Ceiling Plan.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-201 - Elevations - Exterior.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-201 - Elevations - Exterior.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-301 - Building Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-301 - Building Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-302 - Building Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-302 - Building Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-401 - Wall Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-401 - Wall Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-402 - Wall Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-402 - Wall Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-403 - Wall Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-403 - Wall Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-404 - Wall Sections.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-404 - Wall Sections.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-601 - Section Details - Exterior Envelope.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-601 - Section Details - Exterior Envelope.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-602 - Section Details - Exterior Envelope.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-602 - Section Details - Exterior Envelope.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-603 - Section Details - Exterior Envelope.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-603 - Section Details - Exterior Envelope.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-610 - Plan Details - Exterior Envelope.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-610 - Plan Details - Exterior Envelope.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-620 - Details - Trash Enclosure.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-620 - Details - Trash Enclosure.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-650 - Details - Exterior Envelope.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-650 - Details - Exterior Envelope.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-701 - Restrooms.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-701 - Restrooms.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-702 - Women's Showers.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-702 - Women's Showers.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-703 - Men's Showers.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-703 - Men's Showers.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-704 - Women's Locker Room.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-704 - Women's Locker Room.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-705 - Women's Locker Room.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-705 - Women's Locker Room.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-706 - Men's Locker Room.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-706 - Men's Locker Room.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+    <SubJob>
+      <OriginalFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-801 - Door and Finish Schedules &amp; Wall Types.pdf</OriginalFileName>
+      <InputFileName>C:\Dropbox\GitHub\Sports Complex\Open\Sports_Complex\Sheets - Current Set\A-801 - Door and Finish Schedules &amp; Wall Types.pdf</InputFileName>
+      <InputFileType>.pdf</InputFileType>
+      <ExeName />
+      <ApplicationTitle />
+      <PageSize />
+      <Orientation />
+      <Scale />
+      <TransferBookmarks>False</TransferBookmarks>
+      <TransferHyperlinks>False</TransferHyperlinks>
+      <TransferFileProperties>False</TransferFileProperties>
+      <Message />
+      <Stamps />
+    </SubJob>
+  </Job>
+</Jobs>
