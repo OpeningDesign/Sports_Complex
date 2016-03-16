@@ -1,0 +1,3 @@
+ - paint steel before storefront goes in
+ - galvanized angle at roof edge
+ - 
