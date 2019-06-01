@@ -1,7 +1,5 @@
-Project
-==============
 
-A Sports Complex in [Southern Wisconsin](https://www.google.com/maps/place/43%C2%B000'28.7%22N+88%C2%B049'33.6%22W/@43.007976,-88.825994,398m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0).
+## A Sports Complex in [Southern Wisconsin](https://www.google.com/maps/place/43%C2%B000'28.7%22N+88%C2%B049'33.6%22W/@43.007976,-88.825994,398m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0).
 
 <p align="right" style="" >
 <img src="https://raw.githubusercontent.com/OpeningDesign/OD_Library/master/Marketing/Logos/od_icon_logo_2.jpg" width="120px"/>
